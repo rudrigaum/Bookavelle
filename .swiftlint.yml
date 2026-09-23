@@ -1,0 +1,17 @@
+# Bookavelle SwiftLint Configuration
+
+line_length:
+  warning: 120
+  error: 160
+  ignores_comments: true
+  ignores_urls: true
+
+type_body_length:
+  warning: 250
+  error: 350
+
+file_length:
+  warning: 400
+  error: 500
+
+reporter: "xcode"
