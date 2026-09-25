@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct BookavelleApp: App {
+    @State private var router = AppRouter()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppRootView()
+                .environment(router)
         }
     }
 }
