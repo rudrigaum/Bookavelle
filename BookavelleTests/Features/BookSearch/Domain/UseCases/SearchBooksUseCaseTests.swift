@@ -33,7 +33,7 @@ nonisolated struct SearchBooksUseCaseTests {
                     query: "Dune",
                     page: 1,
                     pageSize: 20
-                ),
+                )
             ]
         )
     }
@@ -57,7 +57,7 @@ nonisolated struct SearchBooksUseCaseTests {
                     query: "Harry Potter",
                     page: 2,
                     pageSize: 10
-                ),
+                )
             ]
         )
     }

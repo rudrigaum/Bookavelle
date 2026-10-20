@@ -1,6 +1,8 @@
+
 --swiftversion 6.0
 --indent 4
 --linebreaks lf
 --maxwidth 120
 --trimwhitespace always
 --disable redundantAsync,redundantThrows
+--trailing-commas never
